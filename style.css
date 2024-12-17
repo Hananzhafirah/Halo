@@ -1,0 +1,135 @@
+/* Menghapus margin dan padding default */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Montserrat, sans-serif;
+}
+
+/* Mengatur latar belakang */
+body {
+    background: #333 url('cover2.png') no-repeat center center;
+    background-size: cover;
+    background-color: #f8e7de; /* Warna latar belakang seperti gambar */
+    display: flex;
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+    height: 100%; /* Layar penuh */
+}
+
+input, textarea {
+    background-color: #b57257; /* Warna kolom */
+    color: white;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px; /* Membuat sudut membulat */
+    transition: background-color 0.3s ease;
+    width: 100%; /* Agar input melebar */
+    box-sizing: border-box; /* Termasuk padding dalam lebar */
+    margin-bottom: 15px; /* Jarak antar elemen */
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+    
+}
+.meme{
+    width: 300px;
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+
+}
+.meme2{
+    width: 200px;
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+
+}
+/* Fokus pada input */
+input:focus, textarea:focus {
+    font-family: Montserrat, sans-serif;
+    outline: 2px solid #d48a6a; /* Warna border fokus */
+    background-color: #a15e4b; /* Warna latar lebih gelap saat fokus */
+}
+textarea::placeholder {
+    font-family: Montserrat, sans-serif;
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+    opacity: 0.7;
+    color: #ffffff; /* Warna placeholder agar kontras dan lebih terang */
+    
+}
+
+/* Gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: white;
+}
+/* Kontainer utama */
+.center-content {
+    text-align: center; /* Tulisan rata tengah */
+}
+
+/* Gaya untuk tulisan besar */
+h1 {
+    font-size: 5rem; /* Ukuran font besar */
+    color: #ffffff; /* Warna font serupa dengan logo Google di gambar */
+    margin: 0;
+}
+h2 {
+    font-size: 3rem; /* Ukuran font besar */
+    color: #ffffff; /* Warna font serupa dengan logo Google di gambar */
+    margin: 0;
+}
+
+/* Gaya untuk paragraf */
+p {
+    font-size: 0.9rem; /* Ukuran font untuk teks deskripsi */
+    color: #ffffff;
+    border: #333;
+    margin-top: 0px;
+    margin-bottom: 20px; /* Jarak dengan tombol */
+}
+
+/* Kontainer tombol */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Jarak antar tombol */
+    font-family: Montserrat, sans-serif;
+}
+
+
+button {
+    background-color: #b57257; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px; /* Membuat sudut membulat */
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    background-color: #b57257; /* Warna tombol */
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px; /* Membuat sudut membulat */
+    cursor: pointer;
+    text-decoration: none; /* Hapus underline */
+    transition: background-color 0.3s ease;
+}
+
+a:hover{
+    background-color: #944b3b; /* Warna tombol saat hover */
+}
+button:hover {
+    background-color: #944b3b; /* Warna tombol saat hover */
+}
